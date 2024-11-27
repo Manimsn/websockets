@@ -32,7 +32,7 @@ io.on('connection', (socket) => {
     socket.broadcast.emit('draw-line', { prevPoint, currentPoint, color })
   })
 
-  socket.on('clear', () => io.emit('clear'))
+  // socket.on('clear', () => io.emit('clear'))
 })
 
 server.listen(3001, () => {
