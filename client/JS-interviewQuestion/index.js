@@ -6,7 +6,7 @@ console.log(str)
 // so it returns "NaN" and the middle "+" is a binary operator cancatenates the reulst and 
 // the output is "abcNaN"
 
-// Question 2:
+Question 2:
 var arrA = [1,2];
 var arrB = arrA.slice();
 var arrB = arrA;
