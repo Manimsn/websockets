@@ -10,11 +10,11 @@ const socket = io("http://localhost:3001");
 
 interface pageProps {}
 
-type DrawLineProps = {
-  prevPoint: Point | null;
-  currentPoint: Point;
-  color: string;
-};
+// type DrawLineProps = {
+//   prevPoint: Point | null;
+//   currentPoint: Point;
+//   color: string;
+// };
 
 const page: FC<pageProps> = ({}) => {
   const [color, setColor] = useState<string>("#000");
