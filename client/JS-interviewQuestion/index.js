@@ -19,4 +19,4 @@ console.log(arrB)
 // In Shallow copy, primitive datatype will be copied by "value",
 // but non-primitive is by "reference"
 // here we are trying to modify primitive datatype due to this it will not have any effect in the original Array.
-// The output will be [1, 2]
+The output will be [1, 2]
