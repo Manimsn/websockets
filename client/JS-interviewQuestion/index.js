@@ -33,5 +33,5 @@ let c = false;
 // now true || c results true
 
 let x = 10 + 20 * 3;
-// console.log(x) //70
+console.log(x) //70
 // Muliple has more precedence over "+"
