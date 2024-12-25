@@ -34,4 +34,4 @@ let c = false;
 
 let x = 10 + 20 * 3;
 console.log(x) //70
-// Muliple has more precedence over "+"
+Muliple has more precedence over "+"
