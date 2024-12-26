@@ -16,7 +16,7 @@ type DrawLine = {
   prevPoint: Point | null
   currentPoint: Point
   color: string
-}
+};
 
 io.on('connection', (socket) => {
   socket.on('client-ready', () => {
