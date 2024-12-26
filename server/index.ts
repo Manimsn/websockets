@@ -8,7 +8,7 @@ const io = new Server(server, {
   cors: {
     origin: '*',
   },
-})
+});
 
 type Point = { x: number; y: number }
 
