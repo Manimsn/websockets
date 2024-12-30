@@ -18,6 +18,10 @@ type DrawLine = {
   color: string
 };
 
+io.on('connection', (socket) => {
+  socket.on('client-ready', () => {
+    socket.broadcast.emit('get-canvas-state')
+  })
 
   socket.on('canvas-state', (state) => {
     console.log('received canvas state')
