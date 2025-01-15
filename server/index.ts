@@ -8,7 +8,7 @@ const io = new Server(server, {
   cors: {
     origin: '*',
   },
-})
+});
 
 type Point = { x: number; y: number }
 
@@ -16,7 +16,7 @@ type DrawLine = {
   prevPoint: Point | null
   currentPoint: Point
   color: string
-}
+};
 
 io.on('connection', (socket) => {
   socket.on('client-ready', () => {
